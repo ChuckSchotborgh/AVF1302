@@ -1,0 +1,234 @@
+
+
+h2{
+    position:absolute;
+    text-shadow: -4px 4px 8px #fff;
+    font-family: "Lobster", cursive;
+    font-weight: 200;
+    color: #eee;
+    padding: 10px;
+    line-height: 110px;
+
+}
+
+#AVFDemoLaunch-01 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:640px;
+    height:71px;
+}
+
+#AVFDemoLaunch-02  {
+    position:absolute;
+    left:0px;
+    top:2px;
+    width:640px;
+    height:44px;
+    font-size: small;
+    color: #eee;
+    text-align:center;
+    vertical-align:middle;
+    
+}
+
+#AVFDemoLaunch-03 {
+    position:absolute;
+    left:0px;
+    top:126px;
+    width:640px;
+    height:28px;
+}
+
+#AVFDemoLaunch-04 {
+    position:absolute;
+    left:0px;
+    top:174px;
+    width:640px;
+    height:59px;
+}
+
+#AVFDemoLaunch-05 {
+    position:absolute;
+    left:0px;
+    top:213px;
+    width:33px;
+    height:147px;
+}
+
+#AVFDemoLaunch-06 {
+    position:absolute;
+    left:33px;
+    top:213px;
+    width:135px;
+    height:147px;
+}
+
+#AVFDemoLaunch-07 {
+    position:absolute;
+    left:168px;
+    top:213px;
+    width:53px;
+    height:147px;
+}
+
+#AVFDemoLaunch-08 {
+    position:absolute;
+    left:221px;
+    top:213px;
+    width:114px;
+    height:147px;
+}
+
+#AVFDemoLaunch-09 {
+    position:absolute;
+    left:335px;
+    top:213px;
+    width:305px;
+    height:147px;
+}
+
+#AVFDemoLaunch-10 {
+    position:absolute;
+    left:0px;
+    top:360px;
+    width:640px;
+    height:67px;
+}
+
+#AVFDemoLaunch-12 {
+    position:absolute;
+    left:35px;
+    top:427px;
+    width:126px;
+    height:135px;
+}
+
+#AVFDemoLaunch-13 {
+    position:absolute;
+    left:161px;
+    top:427px;
+    width:137px;
+    height:135px;
+}
+
+#AVFDemoLaunch-15 {
+    position:absolute;
+    left:0px;
+    top:562px;
+    width:640px;
+    height:75px;
+}
+
+#AVFDemoLaunch-17 {
+    position:absolute;
+    left:35px;
+    top:637px;
+    width:126px;
+    height:144px;
+}
+
+#AVFDemoLaunch-18 {
+    position:absolute;
+    left:161px;
+    top:637px;
+    width:128px;
+    height:143px;
+}
+
+#AVFDemoLaunch-19 {
+    position:absolute;
+    left:289px;
+    top:637px;
+    width:139px;
+    height:143px;
+}
+
+#AVFDemoLaunch-22 {
+    position:absolute;
+    left:0px;
+    top:781px;
+    width:640px;
+    height:14px;
+}
+
+#AVFDemoLaunch-23 {
+    position:absolute;
+    left:0px;
+    top:795px;
+    width:640px;
+    height:106px;
+}
+
+#AVFDemoLaunch-25 {
+    position:absolute;
+    left:374px;
+    top:901px;
+    width:266px;
+    height:59px;
+}
+
+stitched {
+   padding: 5px 10px;
+   margin: 10px;
+   background: #313131;
+   text-shadow: -4px 4px 8px #000;
+   color: #fff;
+   font-size: 24px;
+   font-weight: 200;
+   line-height: 1.3em;
+   border: 2px dashed #fff;
+   border-top-left-radius: 3px;
+   -moz-border-radius-topleft: 3px;
+   -webkit-border-top-left-radius: 3px;
+   border-bottom-right-radius: 3px;
+   -moz-border-radius-bottomright: 3px;
+   -webkit-border-bottom-right-radius: 3px;
+   border-top-right-radius: 3px;
+   -moz-border-radius-topright: 3px;
+   -webkit-border-top-right-radius: 3px;
+   -moz-box-shadow: 0 0 0 4px #313131, 2px 1px 4px 4px rgba(10,10,0,.5);
+   -webkit-box-shadow: 0 0 0 4px #313131, 2px 1px 4px 4px rgba(10,10,0,.5);
+   box-shadow: 0 0 0 4px #313131, 2px 1px 6px 4px rgba(10,10,0,.5);
+   text-shadow: -1px -1px #313131;
+   font-weight: normal;
+}
+
+#link-01{
+    position:absolute;
+    left:10px;
+    top:35px;
+    width:100%;
+    
+}
+
+#link-02{
+    position:absolute;
+   left:10px;
+    top:93px;
+    width:100%;
+    
+}
+
+#link-03{
+    position:absolute;
+    left:275px;
+    top:35px;
+    width:100%;
+    
+}
+
+#link-04{
+    position:absolute;
+    left:280px;
+    top:93px;
+    width:100%;
+    
+}
+
+#link-05{
+    position:absolute;
+    left:400px;
+    top:150px;
+    width:100%;
+}

@@ -1,0 +1,2 @@
+Cufon.replace('.slogan, .sf-menu li a, .title, blockquote, .button1, .button2, .button3, .box2', { fontFamily: 'Cantarell', hover:true});
+Cufon.replace('h1, h2, h3, h4, h5, h6, figcaption, .dropcap_1, .dropcap_2', { fontFamily: 'Lobster', hover:true});

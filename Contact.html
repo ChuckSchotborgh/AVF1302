@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contacts</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Your description">
+  <meta name="keywords" content="Your keywords">
+  <meta name="author" content="Your name">
+  <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/grid.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+  
+  <!-- styles for prettyPhoto -->
+  <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="all">
+  
+  <script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/cufon-yui.js"></script>
+  <script type="text/javascript" src="js/Cantarell_700.font.js"></script>
+  <script type="text/javascript" src="js/Lobster_400.font.js"></script>
+  <script type="text/javascript" src="js/cufon-replace.js"></script>
+  <script src="js/flashobject.js" type="text/javascript"></script>
+
+  <!--[if lt IE 9]>
+  	<script type="text/javascript" src="js/html5.js"></script>
+  <![endif]-->
+ <head>
+    <title>Device Properties Example</title>
+
+    <script type="text/javascript" charset="utf-8" src="cordova-1.7.0.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Wait for Cordova to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // Cordova is ready
+    //
+    function onDeviceReady() {
+        navigator.geolocation.getCurrentPosition(onSuccess, onError);
+    }
+
+    // onSuccess Geolocation
+    //
+    function onSuccess(position) {
+        var element = document.getElementById('geolocation');
+        element.innerHTML = 'Latitude: '           + position.coords.latitude              + '<br />' +
+                            'Longitude: '          + position.coords.longitude             + '<br />' +
+                            'Altitude: '           + position.coords.altitude              + '<br />' +
+                            'Accuracy: '           + position.coords.accuracy              + '<br />' +
+                            'Altitude Accuracy: '  + position.coords.altitudeAccuracy      + '<br />' +
+                            'Heading: '            + position.coords.heading               + '<br />' +
+                            'Speed: '              + position.coords.speed                 + '<br />' +
+                            'Timestamp: '          +                                   position.timestamp          + '<br />';
+    }
+
+    // onError Callback receives a PositionError object
+    //
+    function onError(error) {
+        alert('code: '    + error.code    + '\n' +
+              'message: ' + error.message + '\n');
+    }
+
+    </script>
+  </head>
+
+
+<body>
+	<section id="content">
+		<div class="container_12">
+			<div class="indent">
+				<div class="pading">
+					<div class="wrapper">
+						<div class="grid_8 pading">
+							<div class="inside2">
+
+								<h4>Contact form</h4>
+								<div id="contact_form">								  
+
+									<form action="" id="contact-form" method="post" class="main-contacts">
+										<fieldset>
+											<input type="hidden" name="owner_email" id="owner_email" value="admin@demolink.org" />
+											<input type="hidden" name="serverProcessorType" id="serverProcessorType" value="php" />
+											<input type="hidden" name="smtpMailServer" id="smtpMailServer" value="localhost" />
+											<input type="hidden" name="stripHTML" id="stripHTML" value="true" />
+		
+											<div class="rowElem">
+												<input type="text" name="name" id="name" value="Name:" onFocus="if(this.value=='Name:'){this.value=''}" onBlur="if(this.value==''){this.value='Name:'}" />
+												<label class="error" for="name" id="name_error">*This field is required.</label>
+												<label class="error" for="name" id="name_error2">*This is not a valid name.</label>
+											</div>
+											<div class="rowElem">
+												<input type="text" name="email" id="email" value="E-mail:" onFocus="if(this.value=='E-mail:'){this.value=''}" onBlur="if(this.value==''){this.value='E-mail:'}" />
+												<label class="error" for="email" id="email_error">*This field is required.</label>
+												<label class="error" for="email" id="email_error2">*This is not a valid email address.</label>
+											</div>
+											<div class="rowElem">
+												<input type="text" name="phone" id="phone" value="Phone:" onFocus="if(this.value=='Phone:'){this.value=''}" onBlur="if(this.value==''){this.value='Phone:'}" />
+												<label class="error" for="phone" id="phone_error">*This field is required.</label>
+												<label class="error" for="phone" id="phone_error2">*This is not a valid phone number.</label>
+											</div>
+											<div class="textarea-box">
+												<textarea onFocus="if(this.value=='Message:'){this.value=''}" onBlur="if(this.value==''){this.value='Message:'}" name="message" id="message">Message:</textarea>
+												<label class="error" for="message" id="message_error">*This field is required.</label>
+												<label class="error" for="message" id="message_error2">*The message is too short.</label>
+											</div>
+											<div class="alignright">
+												<a href="#" id="clear" class="button1" >clear</a><a href="#" id="submit" class="button1" >send</a>
+											</div>
+																		  
+								  <div class="alignleft">
+									  <a href="index.html" class="button1">More Demos</a>
+								  </div>
+										</fieldset>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="grid_4 omega pading">
+							<div class="inside2">
+								<h4>Contact info</h4>
+								<a href="#"><img src="images/map.jpg" alt="" /></a>
+								<p class="pad1"><strong>iforgive Inc.<br>
+								13748 Green Drive Reno, NV</strong></p>
+								 
+								<p class="pad2"><span class="phone">Telephone:</span>+1 353 344 6778</p>
+								<span class="phone">FAX:</span>+1 353 344 6779<br>
+								E-mail: <a href="#">mail@iforgive.org</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<aside>
+		<div class="container_12">
+			<div class="indent">
+				<div class="wrapper">
+					<div class="grid_3">
+						<strong class="title">paper.js api</strong>
+						<ul class="list1">
+							<li><a href="#">Tadpoles-demo</a></li>
+							<li><a href="#">Space-demo</a></li>
+							<li><a href="#">Smoothing-demo</a></li>
+							<li><a href="#">RoundedRectangles-demo</a></li>
+							<li><a href="#">RadialRainbows-demo</a></li>
+							<li class="last"><a href="#">Lines-demo</a></li>
+						</ul>
+					</div>
+					<div class="grid_3 links">
+						<strong class="title">geolocation</strong>
+
+						 <p id="geolocation">Finding geolocation...</p>
+
+					</div>
+					<div class="grid_3">
+						<strong class="title">video resources</strong>
+						<ul class="list1">
+							<li><a href="video-wk1.html">Industry Research and Project Intent</a></li>
+							<li><a href="video-wk2.html">Accessibility</a></li>
+							<li><a href="video-wk3.html">Responsive Design</a></li>
+							<li><a href="video-wk4.html">Market Research</a></li>
+						</ul>
+					</div>
+					<div class="grid_3">
+						<strong class="title">connects</strong>
+						<ul class="socials">
+							<li><a href="#" class="normaltip facebook" title="Facebook">Facebook</a></li>
+							<li><a href="#" class="normaltip twitter" title="Twitter">Twitter</a></li>
+							<li><a href="#" class="normaltip rss" title="RSS">RSS Feed</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</aside>
+	<footer>
+		<div class="container_12">
+			<div class="wrapper">
+				<div class="grid_12">
+				  i-Forgive &copy; 2011  <a href="index-6.html">Privacy Policy</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+  <script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>
